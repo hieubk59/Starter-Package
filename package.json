@@ -11,12 +11,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/NetoECommerce/Skeletal.git"
+        "url": "https://github.com/hieubk59/Starter-Package.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/NetoECommerce/Skeletal/issues"
+        "url": "https://github.com/hieubk59/Starter-Package/issues"
     },
     "homepage": "https://github.com/NetoECommerce/Skeletal",
     "devDependencies": {
@@ -24,13 +24,26 @@
         "gulp-concat": "^2.6.1",
         "gulp-postcss": "^7.0.1",
         "gulp-sass": "^4.0.2",
+        "gulp-jslint": "^1.0.10",
+        "gulp-copy": "^4.0.1",
+        "gulp-css-condense": "^1.1.2",
         "ntheme": "^1.8.1",
         "postcss-cssnext": "^3.1.0",
         "simple-github-release": "git://github.com/brandonsheppard/simple-github-release.git"
     },
     "dependencies": {
-        "bootstrap": "4.1.1",
-        "jquery": "3.3.1",
-        "popper.js": "1.14.3"
+        "bootstrap": "4.2.1",
+        "jquery": "3.3.2",
+        "popper.js": "1.14.3",
+        "slick": "1.9.0",
+        "instafeed": "1.4.1",
+        "select2": "4.0.6-rc.1"
+    },
+    "dependenciesURL": {
+        "bootstrap": "https://github.com/twbs/bootstrap",
+        "jquery": "https://github.com/kenwheeler/slick",
+        "slick": "https://github.com/kenwheeler/slick",
+        "instafeed": "https://github.com/stevenschobert/instafeed.js",
+        "select2": "https://github.com/select2/select2"
     }
 }
